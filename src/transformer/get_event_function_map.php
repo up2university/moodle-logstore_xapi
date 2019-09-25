@@ -25,6 +25,7 @@ function get_event_function_map() {
         '\core\event\competency_created' => 'core\competency_created',
         '\core\event\competency_viewed' => 'core\competency_viewed',
         '\core\event\competency_plan_created' => 'core\competency_plan_created',
+        '\core\event\competency_plan_updated' => 'core\competency_plan_updated',
         '\core\event\user_enrolment_created' => 'core\user_enrolment_created',
         '\core\event\user_loggedin' => 'core\user_loggedin',
         '\core\event\user_loggedout' => 'core\user_loggedout',
