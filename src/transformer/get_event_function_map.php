@@ -28,6 +28,7 @@ function get_event_function_map() {
         '\core\event\competency_plan_updated' => 'core\competency_plan_updated',
         '\core\event\competency_plan_viewed' => 'core\competency_plan_viewed',
         '\core\event\competency_plan_completed' => 'core\competency_plan_completed',
+        '\core\event\competency_framework_viewed' => 'core\competency_framework_viewed',
         '\core\event\user_enrolment_created' => 'core\user_enrolment_created',
         '\core\event\user_loggedin' => 'core\user_loggedin',
         '\core\event\user_loggedout' => 'core\user_loggedout',

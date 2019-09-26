@@ -14,13 +14,11 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace src\transformer\utils;
+namespace tests\core\competency_framework_viewed\existing_competency_framework_viewed;
 defined('MOODLE_INTERNAL') || die();
 
-function get_event_timestamp(\stdClass $event) {
-    return create_timestamp($event->timecreated);
-}
-
-function get_event_timeviewed(\stdClass $event) {
-    return create_timestamp($event->timeviewed);
+class test extends \tests\xapi_test_case {
+    protected function get_test_dir() {
+        return __DIR__;
+    }
 }
