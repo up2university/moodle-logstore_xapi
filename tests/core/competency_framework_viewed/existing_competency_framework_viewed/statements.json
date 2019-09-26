@@ -16,7 +16,7 @@
         "object": {
             "id": "http:\/\/www.example.org",
             "definition": {
-                "type": "http:\/\/id.tincanapi.com\/activitytype\/lms",
+                "type": "http:\/\/up2university.eu\/activities\/competency_framework",
                 "name": {
                     "en": "test_name"
                 }
@@ -39,7 +39,7 @@
                     {
                         "id": "http:\/\/moodle.org",
                         "definition": {
-                            "type": "http:\/\/id.tincanapi.com\/activitytype\/source",
+                            "type": "http:\/\/up2university.eu\/activities\/competency_framework",
                             "name": {
                                 "en": "Moodle"
                             }
