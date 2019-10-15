@@ -33,7 +33,7 @@ function competency_framework_viewed(array $config, \stdClass $event) {
                 $lang => 'viewed'
             ],
         ],
-	'object' => utils\get_activity\site($config),
+	'object' => utils\get_activity\competency_framework($config),
         'timestamp' => utils\get_event_timeviewed($event),
         'context' => [
             'platform' => $config['source_name'],
@@ -41,7 +41,7 @@ function competency_framework_viewed(array $config, \stdClass $event) {
             'extensions' => utils\extensions\base($config, $event, null),
             'contextActivities' => [
                 'category' => [
-                    utils\get_activity\source($config)
+                    utils\get_activity\competency_framework($config)
                 ]
             ],
         ]
