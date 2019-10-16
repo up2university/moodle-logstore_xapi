@@ -41,7 +41,7 @@ function competency_created(array $config, \stdClass $event) {
             'extensions' => utils\extensions\base($config, $event, null),
             'contextActivities' => [
                 'category' => [
-                    utils\get_activity\source($config)
+                    utils\get_activity\competency($config)
                 ]
             ],
         ]
