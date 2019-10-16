@@ -39,7 +39,7 @@
                     {
                         "id": "http:\/\/moodle.org",
                         "definition": {
-                            "type": "http:\/\/id.tincanapi.com\/activitytype\/source",
+                            "type": "http:\/\/up2university.eu\/activities\/competency",
                             "name": {
                                 "en": "Moodle"
                             }
