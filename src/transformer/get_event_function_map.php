@@ -51,6 +51,7 @@ function get_event_function_map() {
         '\mod_forum\event\discussion_viewed' => 'mod_forum\discussion_viewed',
         '\mod_forum\event\user_report_viewed' => 'mod_forum\user_report_viewed',
         '\mod_forum\event\subscription_created' => 'mod_forum\subscription_created',
+        '\mod_forum\event\subscription_deleted' => 'mod_forum\subscription_deleted',
         '\mod_glossary\event\course_module_viewed' => 'all\course_module_viewed',
         '\mod_imscp\event\course_module_viewed' => 'all\course_module_viewed',
         '\mod_lesson\event\course_module_viewed' => 'mod_lesson\course_module_viewed',
