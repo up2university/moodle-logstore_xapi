@@ -71,6 +71,7 @@ function get_event_function_map() {
         '\mod_scorm\event\status_submitted' => 'mod_scorm\status_submitted',
         '\mod_survey\event\course_module_viewed' => 'mod_survey\course_module_viewed',
         '\mod_survey\event\response_submitted' => 'mod_survey\response_submitted',
+        '\mod_questionnaire\event\course_module_viewed' => 'mod_questionnaire\course_module_viewed',
         '\mod_url\event\course_module_viewed' => 'mod_url\course_module_viewed',
         '\mod_wiki\event\course_module_viewed' => 'all\course_module_viewed',
         '\mod_workshop\event\course_module_viewed' => 'all\course_module_viewed',
