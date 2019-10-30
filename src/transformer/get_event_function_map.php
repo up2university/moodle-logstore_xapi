@@ -38,6 +38,7 @@ function get_event_function_map() {
         '\mod_book\event\course_module_viewed' => 'mod_book\course_module_viewed',
         '\mod_book\event\chapter_viewed' => 'mod_book\chapter_viewed',
         '\mod_chat\event\course_module_viewed' => 'mod_chat\course_module_viewed',
+        '\mod_chat\event\session_viewed' => 'mod_chat\session_viewed',
         '\mod_choice\event\course_module_viewed' => 'all\course_module_viewed',
         '\mod_choice\event\answer_submitted' => 'all\answer_submitted',
         '\mod_data\event\course_module_viewed' => 'all\course_module_viewed',
