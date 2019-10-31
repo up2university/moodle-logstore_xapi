@@ -30,7 +30,7 @@ function chapter_created(array $config, \stdClass $event) {
     $statement = [
         'actor' => utils\get_user($config, $user),
         'verb' => [
-            'id' => 'http://id.tincanapi.com/verb/create',
+            'id' => 'http://activitystrea.ms/schema/1.0/create',
             'display' => [
                 $lang => 'create'
             ]
