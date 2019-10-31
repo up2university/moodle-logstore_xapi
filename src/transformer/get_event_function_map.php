@@ -40,6 +40,7 @@ function get_event_function_map() {
         '\mod_book\event\course_module_viewed' => 'mod_book\course_module_viewed',
         '\mod_book\event\chapter_viewed' => 'mod_book\chapter_viewed',
         '\mod_book\event\chapter_created' => 'mod_book\chapter_created',
+        '\mod_book\event\chapter_updated' => 'mod_book\chapter_updated',
         '\mod_chat\event\course_module_viewed' => 'mod_chat\course_module_viewed',
         '\mod_chat\event\session_viewed' => 'mod_chat\session_viewed',
         '\mod_chat\event\message_sent' => 'mod_chat\message_sent',
