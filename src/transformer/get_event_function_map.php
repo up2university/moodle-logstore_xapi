@@ -83,6 +83,7 @@ function get_event_function_map() {
         '\mod_url\event\course_module_viewed' => 'mod_url\course_module_viewed',
         '\mod_wiki\event\course_module_viewed' => 'mod_wiki\course_module_viewed',
         '\mod_wiki\event\page_created' => 'mod_wiki\page_created',
+        '\mod_wiki\event\page_updated' => 'mod_wiki\page_updated',
         '\mod_workshop\event\course_module_viewed' => 'all\course_module_viewed',
         '\totara_program\event\program_assigned' => 'totara_program\program_assigned'
     ];
