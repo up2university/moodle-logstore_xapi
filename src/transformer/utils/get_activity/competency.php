@@ -23,7 +23,7 @@ function competency(array $config) {
         'definition' => [
             'type' => 'http://up2university.eu/activities/competency',
             'name' => [
-                $config['source_lang'] => $config['source_name'],
+                $config['source_lang'] => 'competency',
             ],
         ],
     ];
