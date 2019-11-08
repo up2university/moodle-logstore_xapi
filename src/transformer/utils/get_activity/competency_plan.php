@@ -23,7 +23,7 @@ function competency_plan(array $config) {
         'definition' => [
             'type' => 'http://up2university.eu/activities/competency_plan',
             'name' => [
-                $config['source_lang'] => $config['source_name'],
+                $config['source_lang'] => 'competency_plan',
             ],
         ],
     ];

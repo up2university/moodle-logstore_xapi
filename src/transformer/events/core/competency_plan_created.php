@@ -33,7 +33,7 @@ function competency_plan_created(array $config, \stdClass $event) {
                 $lang => 'created'
             ],
         ],
-        'object' => utils\get_activity\site($config),
+        'object' => utils\get_activity\competency_plan($config),
         'timestamp' => utils\get_event_timestamp($event),
         'context' => [
             'platform' => $config['source_name'],
