@@ -14,11 +14,11 @@
             }
         },
         "object": {
-            "id": "http:\/\/www.example.org",
+            "id": "http:\/\/moodle.org",
             "definition": {
-                "type": "http:\/\/id.tincanapi.com\/activitytype\/lms",
+                "type": "http:\/\/up2university.eu\/activities\/competency_framework",
                 "name": {
-                    "en": "test_name"
+                    "en": "competency_framework"
                 }
             }
         },
@@ -44,7 +44,7 @@
                         "definition": {
                             "type": "http:\/\/up2university.eu\/activities\/competency_framework",
                             "name": {
-                                "en": "Moodle"
+                                "en": "competency_framework"
                             }
                         }
                     }

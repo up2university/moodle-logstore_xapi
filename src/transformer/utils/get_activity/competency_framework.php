@@ -23,7 +23,7 @@ function competency_framework(array $config) {
         'definition' => [
             'type' => 'http://up2university.eu/activities/competency_framework',
             'name' => [
-                $config['source_lang'] => $config['source_name'],
+                $config['source_lang'] => 'competency_framework',
             ],
         ],
     ];
