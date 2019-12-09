@@ -31,7 +31,7 @@ function attempt_saved(array $config, \stdClass $event) {
         'verb' => [
             'id' => 'http://id.tincanapi.com/verb/save',
             'display' => [
-                $lang => 'save'
+                $lang => 'saved'
             ],
         ],
         'object' => utils\get_activity\course_module(
