@@ -31,7 +31,7 @@ function message_sent(array $config, \stdClass $event) {
         'verb' => [
             'id' => 'http://activitystrea.ms/schema/1.0/send',
             'display' => [
-                $lang => 'send'
+                $lang => 'sent'
             ],
         ],
         'object' => utils\get_activity\course_module(
