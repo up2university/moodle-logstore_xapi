@@ -32,7 +32,7 @@ function subscription_deleted(array $config, \stdClass $event) {
         'verb' => [
             'id' => 'http://activitystrea.ms/schema/1.0/stop-following',
             'display' => [
-                $lang => 'follow'
+                $lang => 'stopped-following'
             ],
         ],
         'object' => utils\get_activity\course_discussion($config, $course, $discussion),
