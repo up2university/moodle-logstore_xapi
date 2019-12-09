@@ -32,7 +32,7 @@ function post_created(array $config, \stdClass $event) {
         'verb' => [
             'id' => 'http://activitystrea.ms/schema/1.0/create',
             'display' => [
-                $lang => 'follow'
+                $lang => 'created'
             ],
         ],
         'object' => utils\get_activity\forum_reply($config, $course, $discussion),

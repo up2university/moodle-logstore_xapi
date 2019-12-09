@@ -10,7 +10,7 @@
         "verb": {
             "id": "http:\/\/activitystrea.ms\/schema\/1.0\/create",
             "display": {
-                "en": "follow"
+                "en": "created"
             }
         },
         "object": {
