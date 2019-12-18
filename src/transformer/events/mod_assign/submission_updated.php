@@ -33,7 +33,7 @@ function submission_updated(array $config, \stdClass $event) {
         'verb' => [
             'id' => 'http://activitystrea.ms/schema/1.0/update',
             'display' => [
-                $lang => 'update'
+                $lang => 'updated'
             ],
         ],
         'object' => utils\get_activity\school_assignment($config, $event->contextinstanceid, $assignment->name, $lang),

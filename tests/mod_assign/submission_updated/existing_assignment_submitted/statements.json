@@ -10,7 +10,7 @@
         "verb": {
             "id": "http:\/\/activitystrea.ms\/schema\/1.0\/update",
             "display": {
-                "en": "update"
+                "en": "updated"
             }
         },
         "object": {
