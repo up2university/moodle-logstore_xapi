@@ -32,7 +32,7 @@ function chapter_created(array $config, \stdClass $event) {
         'verb' => [
             'id' => 'http://activitystrea.ms/schema/1.0/create',
             'display' => [
-                $lang => 'create'
+                $lang => 'created'
             ]
         ],
         'object' => utils\get_activity\book_chapter($config, $course, $chapter, $event->contextinstanceid),
