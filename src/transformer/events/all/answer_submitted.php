@@ -29,7 +29,7 @@ function answer_submitted(array $config, \stdClass $event) {
     return [[
         'actor' => utils\get_user($config, $user),
         'verb' => [
-            'id' => 'http://id.tincanapi.com/verb/submitted',
+            'id' => 'http://adlnet.gov/expapi/verbanswered',
             'display' => [
                 $lang => 'submitted'
             ],
