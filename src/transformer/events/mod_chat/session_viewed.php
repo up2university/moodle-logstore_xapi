@@ -29,7 +29,7 @@ function session_viewed(array $config, \stdClass $event) {
     return [[
         'actor' => utils\get_user($config, $user),
         'verb' => [
-            'id' => 'http://id.tincanapi.com/verb/viewed',
+            'id' => 'http://activitystrea.ms/schema/1.0/access',
             'display' => [
                 $lang => 'viewed'
             ],
