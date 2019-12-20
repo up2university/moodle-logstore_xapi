@@ -32,7 +32,7 @@ function subscription_created(array $config, \stdClass $event) {
         'verb' => [
             'id' => 'http://activitystrea.ms/schema/1.0/follow',
             'display' => [
-                $lang => 'followed'
+                $lang => 'stopped following'
             ],
         ],
         'object' => utils\get_activity\course_discussion($config, $course, $discussion),
