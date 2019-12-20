@@ -33,7 +33,7 @@ function submission_created(array $config, \stdClass $event) {
         'verb' => [
             'id' => 'http://activitystrea.ms/schema/1.0/create',
             'display' => [
-                $lang => 'created'
+                $lang => 'submitted'
             ],
         ],
         'object' => utils\get_activity\school_assignment($config, $event->contextinstanceid, $assignment->name, $lang),
