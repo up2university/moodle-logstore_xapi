@@ -24,6 +24,7 @@ function competency_plan_completed(array $config, \stdClass $event) {
     $repo = $config['repo'];
     $user = $repo->read_record_by_id('user', $event->relateduserid);
     $lang = $config['source_lang'];
+    $course = $repo->read_record_by_id('course', $event->courseid);
 
     return [[
         'actor' => utils\get_user($config, $user),
@@ -42,8 +43,11 @@ function competency_plan_completed(array $config, \stdClass $event) {
             'contextActivities' => [
                 'category' => [
                     utils\get_activity\competency_plan($config)
-                ]
+                ],
+                'grouping' =>[
+                    utils\get_activity\course($config, $course)]
             ],
         ]
-    ]];
+        ]
+    ];
 }

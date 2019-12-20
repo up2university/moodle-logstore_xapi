@@ -9,7 +9,7 @@
     "course": [
         {
             "id": 1,
-            "fullname": "test_name",
+            "fullname": "a_course",
             "lang": "en",
             "shortname": "test_course_short_name"
         }

@@ -48,6 +48,17 @@
                             }
                         }
                     }
+                ],
+                "grouping": [
+                    {
+                        "id": "http:\/\/www.example.org\/course\/view.php?id=1",
+                        "definition": {
+                            "type": "http:\/\/id.tincanapi.com\/activitytype\/lms\/course",
+                            "name": {
+                                "en": "a_course"
+                            }
+                        }
+                    }
                 ]
             }
         }
