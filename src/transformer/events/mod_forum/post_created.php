@@ -45,6 +45,7 @@ function post_created(array $config, \stdClass $event) {
                 'grouping' => [
                     utils\get_activity\site($config),
                     utils\get_activity\course($config, $course),
+                    utils\get_activity\course_discussion($config,$course,$discussion)
                 ],
                 'category' => [
                     utils\get_activity\forum_reply($config, $course, $discussion),

@@ -53,6 +53,15 @@
                                 "en": "test_name"
                             }
                         }
+                    },
+                    {
+                        "id": "http:\/\/www.example.org\/mod\/forum\/discuss.php?d=1",
+                        "definition": {
+                            "type": "http:\/\/id.tincanapi.com\/activitytype\/discussion",
+                            "name": {
+                                "en": "test_forum_discussion_name"
+                            }
+                        }
                     }
                 ],
                 "category": [
