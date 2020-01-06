@@ -48,7 +48,7 @@
                     {
                         "id": "http:\/\/www.example.org\/course\/view.php?id=1",
                         "definition": {
-                            "type": "http:\/\/id.tincanapi.com\/activitytype\/lms\/course",
+                            "type": "http:\/\/up2university.eu\/activities\/wikipage",
                             "name": {
                                 "en": "test_name"
                             }

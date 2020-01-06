@@ -48,7 +48,7 @@ function page_created(array $config, \stdClass $event) {
             'contextActivities' => [
                 'grouping' => [
                     utils\get_activity\site($config),
-                    utils\get_activity\course($config, $course)
+                    utils\get_activity\course_wiki($config, $course)
                     ],
                 'category' => [
                     utils\get_activity\source($config),
