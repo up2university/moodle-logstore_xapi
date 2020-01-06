@@ -8,9 +8,9 @@
             }
         },
         "verb": {
-            "id": "http:\/\/id.tincanapi.com\/verb\/read",
+            "id": "http:\/\/id.tincanapi.com\/verb\/previewed",
             "display": {
-                "en": "read"
+                "en": "previewed"
             }
         },
         "object": {

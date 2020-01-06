@@ -29,9 +29,9 @@ function all_responses_viewed(array $config, \stdClass $event) {
     return [[
         'actor' => utils\get_user($config, $user),
         'verb' => [
-            'id' => 'http://id.tincanapi.com/verb/read',
+            'id' => 'http://id.tincanapi.com/verb/previewed',
             'display' => [
-                $lang => 'read'
+                $lang => 'previewed'
             ],
         ],
         'object' => utils\get_activity\course_module(
