@@ -35,8 +35,6 @@ function get_event_function_map() {
         '\core\event\course_module_completion_updated' => 'core\course_module_completion_updated',
         '\mod_assign\event\assessable_submitted' => 'mod_assign\assignment_submitted',
         '\mod_assign\event\submission_graded' => 'mod_assign\assignment_graded',
-        '\mod_assign\event\submission_created' => 'mod_assign\submission_created',
-        '\mod_assign\event\submission_updated' => 'mod_assign\submission_updated',
         '\mod_book\event\course_module_viewed' => 'mod_book\course_module_viewed',
         '\mod_book\event\chapter_viewed' => 'mod_book\chapter_viewed',
         '\mod_book\event\chapter_created' => 'mod_book\chapter_created',
